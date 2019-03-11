@@ -32,12 +32,68 @@
     </nav>
 
     <!-- Body -->
-    <h1 class="text-center">Potions</h1>
+    <div class="body px-5">
 
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Raids Potion Calculator</h1>
+      </div>
+
+      <div class="Calculator pb-3">
+        <div class="form-group row">
+            <label for="inputPeople" class="col-md col-form-label">How many people?</label>
+            <div class="col-md">
+              <input type="number" class="form-control" id="inputPeople" value="1">
+            </div>
+            <div class="form-check form-check-inline col-md">
+                <input class="form-check-input" type="checkbox" id="inlineSplit" value="splitOverloads">
+                <label class="form-check-label" for="inlineSplit">Split overloads (2 doses)</label>
+              </div>
+            <div class="form-check form-check-inline col-md">
+              <input class="form-check-input" type="checkbox" id="inlineExtras" value="extraPiles" checked>
+              <label class="form-check-label" for="inlineExtras">Extras for piles</label>
+            </div>
+        </div>
+        <h1 class=" text-center py-5">Amounts per person</h1>
+        <div class="form-row">
+            <div class="col-md-3 mb-3">
+              <label for="inputOverload">Overloads</label>
+              <input type="number" class="form-control" id="inputOverload" value="1">
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="inputPrayer">Prayer Enhances</label>
+              <input type="number" class="form-control" id="inputPrayer" value="1">
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="inputRestores">Restores</label>
+              <input type="number" class="form-control" id="inputRestores" value="3">
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="inputBrews">Brews</label>
+              <input type="number" class="form-control" id="inputBrews" value="10">
+            </div>
+        </div>
+        <div class="CalculatedAmounts text-center">
+          <h2 class="py-3">Totals: <span id="Overload">E</span> Overloads, <span id="Prayer">E</span> Prayer Enhances, <span id="Restores">E</span> Restores and <span id="Brews">E</span> Brews</h2>
+
+          <p>You will need...</p>
+
+          <h3><span id="Vials">X</span> Water-filled vials</h3>
+          <div class="Overloads">
+            <h3><span id="Noxifer">X</span> Noxifer</h3>
+            <h3><span id="Golpar">X</span> Golpar</h3>
+          </div>
+          <h3><span id="Buchu">X</span> Buchu Leaf</h3>
+          <h3><span id="Mushroom">X</span> Stinkhorn Mushrooms</h3>
+          <h3><span id="Cicely">X</span> Cicely</h3>
+          <h3><span id="Juice">X</span> Endarkened Juice</h3>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional Javascript -->
     <!-- JQuery first, then Popper.js, then Boostrap.js -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/script.js" text="text/Javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
