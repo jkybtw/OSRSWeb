@@ -1,0 +1,118 @@
+[
+  {
+    "name": "ZZzz",
+    "bands": [
+      {
+        "name": "Winter Primates",
+        "recordLabel": ""
+      }
+    ]
+  },
+  {
+    "name": "LOL-palooza",
+    "bands": [
+      {
+        "name": "Winter Primates",
+        "recordLabel": ""
+      },
+      {
+        "name": "Frank Jupiter",
+        "recordLabel": "Pacific Records"
+      },
+      {
+        "name": "Werewolf Weekday",
+        "recordLabel": "XS Recordings"
+      },
+      {
+        "name": "Jill Black",
+        "recordLabel": "Fourth Woman Records"
+      }
+    ]
+  },
+  {
+    "name": "Small Night In",
+    "bands": [
+      {
+        "name": "Winter Primates",
+        "recordLabel": ""
+      },
+      {
+        "name": "The Black Dashes",
+        "recordLabel": "Fourth Woman Records"
+      },
+      {
+        "name": "Yanke East",
+        "recordLabel": "MEDIOCRE Music"
+      },
+      {
+        "name": "Squint-281",
+        "recordLabel": "Outerscope"
+      },
+      {
+        "name": "Green Mild Cold Capsicum",
+        "recordLabel": "Marner Sis. Recording"
+      },
+      {
+        "name": "Wild Antelope",
+        "recordLabel": "Marner Sis. Recording"
+      }
+    ]
+  },
+  {
+    "name": "Trainerella",
+    "bands": [
+      {
+        "name": "Winter Primates",
+        "recordLabel": ""
+      },
+      {
+        "name": "Wild Antelope",
+        "recordLabel": "Still Bottom Records"
+      },
+      {
+        "name": "Adrian Venti",
+        "recordLabel": "Monocracy Records"
+      },
+      {
+        "name": "YOUKRANE",
+        "recordLabel": "Anti Records"
+      },
+      {
+        "name": "Manish Ditch",
+        "recordLabel": "ACR"
+      }
+    ]
+  },
+  {
+    "name": "Twisted Tour",
+    "bands": [
+      {
+        "name": "Auditones",
+        "recordLabel": "Marner Sis. Recording"
+      },
+      {
+        "name": "Summon",
+        "recordLabel": "Outerscope"
+      },
+      {
+        "name": "Squint-281"
+      }
+    ]
+  },
+  {
+    "bands": [
+      {
+        "name": "Winter Primates",
+        "recordLabel": ""
+      },
+      {
+        "name": "Critter Girls",
+        "recordLabel": "ACR"
+      },
+      {
+        "name": "Propeller",
+        "recordLabel": "Pacific Records"
+      }
+    ]
+  }
+]
